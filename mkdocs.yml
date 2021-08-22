@@ -37,4 +37,13 @@ markdown_extensions:
 nav:
     - Home: index.md
     - Lectures:
-          - lectures/01_variables_data_types.ipynb
+          - lectures/01_getting_started.ipynb
+          - lectures/02_variables_data_types.ipynb
+          - lectures/03_introducing_lists.ipynb
+          - lectures/04_working_with_lists.ipynb
+          - lectures/05_if_statements.ipynb
+          - lectures/06_dictionaries.ipynb
+          - lectures/07_user_input_while_loops.ipynb
+          - lectures/08_functions.ipynb
+          - lectures/09_classes.ipynb
+          - lectures/10_files_and_exceptions.ipynb
