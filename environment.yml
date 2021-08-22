@@ -1,0 +1,9 @@
+name: geo
+channels:
+    - conda-forge
+dependencies:
+    - nodejs
+    - jupyterlab
+    - geemap
+    - leafmap
+
