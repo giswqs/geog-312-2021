@@ -47,3 +47,5 @@ nav:
           - lectures/08_functions.ipynb
           - lectures/09_classes.ipynb
           - lectures/10_files_and_exceptions.ipynb
+    - Labs:
+          - labs/lab_01.ipynb
