@@ -49,3 +49,4 @@ nav:
           - lectures/10_files_and_exceptions.ipynb
     - Labs:
           - labs/lab_01.ipynb
+          - labs/lab_02.ipynb
