@@ -50,3 +50,4 @@ nav:
     - Labs:
           - labs/lab_01.ipynb
           - labs/lab_02.ipynb
+          - labs/lab_03.ipynb
