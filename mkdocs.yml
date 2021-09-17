@@ -5,49 +5,50 @@ site_url: https://geog-312.gishub.org
 repo_url: https://github.com/giswqs/geog-312
 
 theme:
-    palette:
-        scheme: preference
-    name: material
-    icon:
-        repo: fontawesome/brands/github
-    features:
-        - navigation.instant
-        - search.highlight
-        # - navigation.expand
-        # - navigation.tabs
-    custom_dir: "docs/overrides"
+  palette:
+    scheme: preference
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - search.highlight
+    # - navigation.expand
+    # - navigation.tabs
+  custom_dir: "docs/overrides"
 
 plugins:
-    - search
-    - mkdocstrings
-    - git-revision-date
-    - mkdocs-jupyter:
-          include_source: True
-          ignore_h1_titles: True
-          execute: True
+  - search
+  - mkdocstrings
+  - git-revision-date
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True
+      execute: True
 
 markdown_extensions:
-    - attr_list
-    - pymdownx.superfences
-    - pymdownx.highlight:
-          linenums: true
-    - toc:
-          permalink: true
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+  - toc:
+      permalink: true
 
 nav:
-    - Home: index.md
-    - Lectures:
-          - lectures/01_getting_started.ipynb
-          - lectures/02_variables_data_types.ipynb
-          - lectures/03_introducing_lists.ipynb
-          - lectures/04_working_with_lists.ipynb
-          - lectures/05_if_statements.ipynb
-          - lectures/06_dictionaries.ipynb
-          - lectures/07_user_input_while_loops.ipynb
-          - lectures/08_functions.ipynb
-          - lectures/09_classes.ipynb
-          - lectures/10_files_and_exceptions.ipynb
-    - Labs:
-          - labs/lab_01.ipynb
-          - labs/lab_02.ipynb
-          - labs/lab_03.ipynb
+  - Home: index.md
+  - Lectures:
+      - lectures/01_getting_started.ipynb
+      - lectures/02_variables_data_types.ipynb
+      - lectures/03_introducing_lists.ipynb
+      - lectures/04_working_with_lists.ipynb
+      - lectures/05_if_statements.ipynb
+      - lectures/06_dictionaries.ipynb
+      - lectures/07_user_input_while_loops.ipynb
+      - lectures/08_functions.ipynb
+      - lectures/09_classes.ipynb
+      - lectures/10_files_and_exceptions.ipynb
+  - Labs:
+      - labs/lab_01.ipynb
+      - labs/lab_02.ipynb
+      - labs/lab_03.ipynb
+      - labs/lab_04.ipynb
