@@ -3,7 +3,16 @@ channels:
     - conda-forge
 dependencies:
     - nodejs
-    - jupyterlab
-    - geemap
+    - ipyleaflet
+    - jupyterlab=3
+    - datapane
+    - folium
+    - imageio
+    - keplergl
     - leafmap
-
+    - pydeck
+    - xarray_leaflet
+    - geopandas
+    - osmnx
+    - tifffile
+    - geemap
