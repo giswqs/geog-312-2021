@@ -25,7 +25,7 @@ plugins:
       include_source: True
       ignore_h1_titles: True
       execute: True
-      execute_ignore: "lectures/11_leafmap.ipynb"
+      execute_ignore: "lectures/*map.ipynb"
 
 markdown_extensions:
   - attr_list
@@ -49,6 +49,7 @@ nav:
       - lectures/09_classes.ipynb
       - lectures/10_files_and_exceptions.ipynb
       - lectures/11_leafmap.ipynb
+      - lectures/12_geemap.ipynb
   - Labs:
       - labs/lab_01.ipynb
       - labs/lab_02.ipynb
